@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">WeChatPay</string>
+    <!-- WXPayEntryActivity -->
+    <string name="pay_result_tip">这个界面用于显示第三方app通过微信支付的结果</string>
+    <string name="pay_result_callback_msg" formatted="false">微信支付结果：%s</string>
+    <string name="app_tip">提示</string>
+    <string name="pay_with_wechat_hk">HK 微信支付 Demo</string>
+    <string name="pay_money">输入支付金额(单位分)</string>
+    <string name="demo_info_text">重要说明: \n\n1.本DEMO展示了在调用聚合支付接口后获取到的参数解析，赋值给微信发起支付。\n\n2.发起微信支付前切记支付app必须为签名版本，包名和签名需与微信官方申请的签名和包名一致，验签的Gen_Signature_Android.apk放在项目release目录下，可自行验证排查错误，WeChatPay.apk编译好的微信Demo支付，可用来测试支付效果。\n\n3.微信支付是有缓存的，如第一次支付失败报错，修改错误后，建议卸载微信重新安装再测支付。\n
+    \n4.如有问题可及时沟通。</string>
+    <string name="get_pay_info_data">第一步获取微信支付参数</string>
+    <string name="wechat_hk">第二步发起发信支付</string>
+
+
+</resources>
